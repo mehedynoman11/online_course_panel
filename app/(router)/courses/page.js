@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import WelcomeBanner from './_components/WelcomeBanner'
+import CourseList from './_components/CourseList'
 
 function Courses() {
   return (
@@ -7,6 +9,9 @@ function Courses() {
       {/* left container */}
       <div className='col-span-2'>
         <WelcomeBanner />
+
+        {/* courselist */}
+        <CourseList />
       </div>
       {/* right container */}
       <div>
